@@ -5,10 +5,7 @@ from unittest import mock
 from unittest.mock import call
 
 import pytest
-<<<<<<< HEAD
 
-=======
->>>>>>> improve tests
 import quilt3
 from quilt3 import main
 
