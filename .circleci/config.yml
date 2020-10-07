@@ -37,6 +37,7 @@ workflows:
       - test-36
       - test-37
       - test-38
+      - test-39
       - test-windows
       - test-lambda:
           name: test-lambda-access_counts
@@ -129,6 +130,11 @@ jobs:
   test-38:
     docker:
       - image: circleci/python:3.8
+    <<: *test-base
+
+  test-39:
+    docker:
+      - image: circleci/python:3.9
     <<: *test-base
 
   test-windows:
