@@ -102,6 +102,9 @@ jobs:
   linter:
     docker:
       - image: circleci/python:3.6
+        auth:
+          username: $KJKJFKDJSFK
+          password: $KJKJFKDJSFK
     steps:
       - checkout
       - setup-venv
