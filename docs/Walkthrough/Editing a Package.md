@@ -4,7 +4,7 @@ Data in Quilt is organized in terms of **data packages**. A data package is a lo
 
 To edit a new empty package, use the package constructor:
 
-```python
+```pycon
 import quilt3
 p = quilt3.Package()
 ```
