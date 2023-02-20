@@ -1,3 +1,4 @@
 boto3==1.17.100
 botocore==1.20.100
 pandas==1.1.0
+numpy>=1.22.2 # not directly required, pinned by Snyk to avoid a vulnerability
