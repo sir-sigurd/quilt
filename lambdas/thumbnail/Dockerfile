@@ -1,4 +1,4 @@
-ARG base_image="debian:bullseye-slim"
+ARG base_image=debian:11.6-slim
 ARG FUNCTION_DIR="/function"
 
 FROM ${base_image} as build-image
