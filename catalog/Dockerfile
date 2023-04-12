@@ -1,4 +1,4 @@
-FROM nginx:1.18.0
+FROM nginx:1.24
 MAINTAINER Quilt Data, Inc. contact@quiltdata.io
 
 # Set up nginx
