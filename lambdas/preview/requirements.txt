@@ -34,3 +34,4 @@ traitlets==5.3.0
 urllib3==1.26.5
 webencodings==0.5.1
 xlrd==2.0.1
+tornado>=6.3.2 # not directly required, pinned by Snyk to avoid a vulnerability
