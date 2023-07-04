@@ -1,4 +1,4 @@
-FROM debian:bullseye-20230522-slim@sha256:7606bef5684b393434f06a50a3d1a09808fee5a0240d37da5d181b1b121e7637
+FROM debian:bullseye-20230703-slim@sha256:3460d74bec6b88496cd183d7731930be55234c094f581f7dbdd96f56c1fc34d8
 MAINTAINER Quilt Data, Inc. contact@quiltdata.io
 
 # Based on:
