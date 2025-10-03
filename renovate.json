@@ -13,5 +13,11 @@
   "rangeStrategy": "bump",
   "labels": [
     "js dependencies"
+  ],
+  "packageRules": [
+    {
+      "matchManagers": ["dockerfile"],
+      "groupName": "{{manager}}"
+    }
   ]
 }
