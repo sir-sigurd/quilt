@@ -21,9 +21,9 @@
       "major": {
         "enabled": false
       },
-      "minor": {
-        "enabled": false
-      },
+      // "minor": {
+      //   "enabled": false
+      // },
       "dependencyDashboardApproval": false,
       "additionalBranchPrefix": "{{parentDir}}-",
       "commitMessageSuffix": " in {{parentDir}}"
