@@ -27,7 +27,7 @@
     },
     {
       "matchManagers": ["dockerfile"],
-      "matchPackageNames": ["public.ecr.aws/lambda/python:3.9"],
+      "matchPackageNames": ["public.ecr.aws/lambda/python"],
       "minor": {
         "enabled": false
       },
