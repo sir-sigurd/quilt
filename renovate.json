@@ -24,7 +24,8 @@
       "minor": {
         "enabled": false
       },
-      "dependencyDashboardApproval": false
+      "dependencyDashboardApproval": false,
+      "additionalBranchPrefix": "{{parentDir}}-"
     }
   ]
 }
