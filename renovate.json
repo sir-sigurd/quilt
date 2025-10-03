@@ -22,6 +22,9 @@
       "major": {
         "enabled": false
       },
+      "minor": {
+        "enabled": false
+      },
       // "minor": {
       //   "enabled": false
       // },
