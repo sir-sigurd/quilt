@@ -18,20 +18,20 @@
     {
       "matchManagers": ["dockerfile"],
       "labels": ["docker"],
-      "rangeStrategy": "auto",
       "major": {
         "enabled": false
       },
-      "minor": {
-        "enabled": false
-      },
-      "separateMinorPatch": true,
-      // "minor": {
-      //   "enabled": false
-      // },
       "dependencyDashboardApproval": false,
       "additionalBranchPrefix": "{{parentDir}}-",
       "commitMessageSuffix": " in {{packageFileDir}} ({{newMajor}}|{{newMinor}}|{{newPatch}})"
+    },
+    {
+      "matchManagers": ["dockerfile"],
+      "matchPackageNames": ["public.ecr.aws/lambda/python:3.9"],
+      "minor": {
+        "enabled": false
+      },
+      "separateMinorPatch": true
     }
   ]
 }
