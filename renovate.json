@@ -23,7 +23,8 @@
       },
       "minor": {
         "enabled": false
-      }
+      },
+      "dependencyDashboardApproval": false
     }
   ]
 }
