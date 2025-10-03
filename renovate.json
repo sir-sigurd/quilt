@@ -23,7 +23,7 @@
       },
       "dependencyDashboardApproval": false,
       "additionalBranchPrefix": "{{parentDir}}-",
-      "commitMessageSuffix": " in {{packageFileDir}} ({{newMajor}}|{{newMinor}}|{{newPatch}})"
+      "commitMessageSuffix": " in /{{packageFileDir}}"
     },
     {
       "matchManagers": ["dockerfile"],
