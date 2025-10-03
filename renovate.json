@@ -18,6 +18,7 @@
     {
       "matchManagers": ["dockerfile"],
       "labels": ["docker"],
+      "rangeStrategy": "auto",
       "major": {
         "enabled": false
       },
