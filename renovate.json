@@ -26,7 +26,7 @@
       // },
       "dependencyDashboardApproval": false,
       "additionalBranchPrefix": "{{parentDir}}-",
-      "commitMessageSuffix": " in {{parentDir}}"
+      "commitMessageSuffix": " in {{packageFileDir}}"
     }
   ]
 }
