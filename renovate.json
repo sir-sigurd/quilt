@@ -17,7 +17,8 @@
   "packageRules": [
     {
       "matchManagers": ["dockerfile"],
-      "groupName": "{{manager}}"
+      "dependencyDashboardCategory": "{{manager}}",
+      "labels": ["docker dependencies"]
     }
   ]
 }
