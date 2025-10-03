@@ -25,6 +25,7 @@
       "minor": {
         "enabled": false
       },
+      "separateMinorPatch": true,
       // "minor": {
       //   "enabled": false
       // },
