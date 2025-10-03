@@ -25,7 +25,8 @@
         "enabled": false
       },
       "dependencyDashboardApproval": false,
-      "additionalBranchPrefix": "{{parentDir}}-"
+      "additionalBranchPrefix": "{{parentDir}}-",
+      "commitMessageSuffix": " in {{parentDir}}"
     }
   ]
 }
