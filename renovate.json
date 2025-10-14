@@ -21,7 +21,7 @@
       "major": {
         "enabled": false
       },
-      "additionalBranchPrefix": "{{parentDir}}-test",
+      "additionalBranchPrefix": "{{packageFileDir}}-",
       "commitMessageSuffix": " in /{{packageFileDir}}",
       "dependencyDashboardCategory": "docker"
     },
