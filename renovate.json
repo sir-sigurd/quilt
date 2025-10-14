@@ -22,7 +22,8 @@
         "enabled": false
       },
       "additionalBranchPrefix": "{{parentDir}}-test",
-      "commitMessageSuffix": " in /{{packageFileDir}}"
+      "commitMessageSuffix": " in /{{packageFileDir}}",
+      "dependencyDashboardCategory": "docker"
     },
     {
       "matchManagers": ["dockerfile"],
