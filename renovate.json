@@ -21,7 +21,7 @@
       "major": {
         "enabled": false
       },
-      "additionalBranchPrefix": "{{parentDir}}-",
+      "additionalBranchPrefix": "{{parentDir}}-test",
       "commitMessageSuffix": " in /{{packageFileDir}}"
     },
     {
