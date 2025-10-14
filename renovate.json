@@ -21,7 +21,6 @@
       "major": {
         "enabled": false
       },
-      "dependencyDashboardApproval": false,
       "additionalBranchPrefix": "{{parentDir}}-",
       "commitMessageSuffix": " in /{{packageFileDir}}"
     },
