@@ -8,7 +8,8 @@
   ],
   "enabledManagers": [
     "npm",
-    "dockerfile"
+    "dockerfile",
+    "pep621"
   ],
   "rangeStrategy": "bump",
   "labels": [
@@ -32,6 +33,10 @@
         "enabled": false
       },
       "separateMinorPatch": true
+    },
+    {
+      "matchManagers": ["pep621"],
+      "enabled": false
     }
   ],
   "vulnerabilityAlerts": {
