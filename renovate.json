@@ -27,6 +27,11 @@
     },
     {
       "matchManagers": ["dockerfile"],
+      "matchPackageNames": ["docker"],
+      "versioning": "regex:^(?<compatibility>.*)-(?<minor>\\d+)$"
+    },
+    {
+      "matchManagers": ["dockerfile"],
       "matchPackageNames": ["public.ecr.aws/lambda/python"],
       "minor": {
         "enabled": false
