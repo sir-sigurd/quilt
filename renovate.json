@@ -43,5 +43,6 @@
     "labels": [
       "sec"
     ]
-  }
+  },
+  "osvVulnerabilityAlerts": true
 }
