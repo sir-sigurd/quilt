@@ -33,5 +33,10 @@
       },
       "separateMinorPatch": true
     }
-  ]
+  ],
+  "vulnerabilityAlerts": {
+    "labels": [
+      "sec"
+    ]
+  }
 }
